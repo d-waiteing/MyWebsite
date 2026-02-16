@@ -1,12 +1,14 @@
 import InquiryForm from "@/components/InquiryForm"
 import ShowProjectButton from "@/components/ShowProjectButton"
 import Profile from '@/components/Profile';
+import SkillsTable from "@/components/SkillsTable";
 
 export default function Home() {
   return (
     <>
       <main className="flex flex-col gap-10 max-w-5xl mx-auto px-6">
         <Profile />
+        <SkillsTable />
         <div>
           <h1 className="text-4xl pb-3">Projects</h1>
           <div className="flex flex-col lg:flex-row gap-6 items-start">
