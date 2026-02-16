@@ -37,7 +37,7 @@ export default function SkillsTable() {
     return (
         <div className="flex flex-col">
             <h1 className="text-4xl pb-3">Technical Skills</h1>
-            <div style={{ height: '400px', width: '50%' }}>
+            <div style={{ height: '400px', width: '100%' }}>
                 <AgGridReact
                     theme={tableTheme}
                     rowData={skills}
