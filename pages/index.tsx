@@ -6,7 +6,7 @@ import SkillsTable from "@/components/SkillsTable";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col gap-10 max-w-5xl mx-auto px-6">
+      <main className="flex flex-col gap-10 max-w-5xl mx-auto px-6">
         <Profile />
         <SkillsTable />
         <div>
